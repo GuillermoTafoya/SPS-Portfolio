@@ -1,0 +1,32 @@
+:root{
+    --bg: #1B1212; /*Licourine*/
+    --neon-pink-1: #E92EFB;
+    --neon-pink-2: #FF2079;
+    --neon-blue-1: #440BD4;
+    --neon-blue-2: #04005E;
+    --neon-blue-2-alpha: rgba(4, 0, 94, 0.5);
+    /*
+    RGB: 
+    --neon-pink-1: rgb(233, 46, 251);
+    --neon-pink-2: rgb(255, 32, 121);
+    --neon-blue-1: rgb(68, 11, 212);
+    --neon-blue-2: rgb(4, 0, 94);
+    */
+}
+
+
+.top-bar {
+    height: 80px; /* 100% Full-height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+
+
+    color: var(--neon-pink-2);
+    background-color: var(--neon-blue-2-alpha);
+
+
+    overflow-y: hidden; 
+}

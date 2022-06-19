@@ -1,0 +1,62 @@
+:root{
+    --bg: #1B1212; /*Licourine*/
+    --neon-pink-1: #E92EFB;
+    --neon-pink-2: #FF2079;
+    --neon-blue-1: #440BD4;
+    --neon-blue-2: #04005E;
+
+    --neon-blue-2-alpha: rgba(4, 0, 94, 0.5);
+    /*
+    RGB: 
+    --neon-pink-1: rgb(233, 46, 251);
+    --neon-pink-2: rgb(255, 32, 121);
+    --neon-blue-1: rgb(68, 11, 212);
+    --neon-blue-2: rgb(4, 0, 94);
+    */
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 150px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 80px; /* Stay at the top */
+    left: 0;
+
+
+    background-color: var(--neon-blue-2-alpha);
+
+
+    overflow-x: hidden; 
+    padding-top: 60px; 
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--neon-pink-1);
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
