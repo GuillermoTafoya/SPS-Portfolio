@@ -6,7 +6,7 @@
     --neon-blue-2: #04005E;
     
 
-    --nav: rgba(80, 80, 80, 0.3);
+    --nav: rgba(70, 7, 61, 0.3);
     /*
     RGB: 
     --neon-pink-1: rgb(233, 46, 251);
@@ -22,7 +22,7 @@
     width: 150px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 80px; /* Stay at the top */
+    top: 0; /* Stay at the top */
     left: 0;
 
 
@@ -33,6 +33,9 @@
 
     overflow-x: hidden; 
     padding-top: 60px; 
+
+    border-right: 3px solid var(--neon-pink-2-alpha);
+    box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
 }
 
 /* The navigation menu links */

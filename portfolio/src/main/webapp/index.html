@@ -6,23 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="grids.css">
     <link rel="stylesheet" href="glassmorphism card.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <script src="script.js"></script>
   </head>
   <body>
 
-      <div class="top-bar">
-        <div class="centered header">
-          Guillermo Tafoya's Portfolio
+      <div class="top-bar title-card hcentered">
+        <div class="header glass-card-title center">
+          <p class = "center vcentered">Guillermo Tafoya's Portfolio</p>
         </div>
         
       </div>
 
       <div id="neonSideNav" class="sidenav">
+        <div class="centered">
           <a href="#About Me">About Me</a>
           <a href="#Projects">Projects</a>
           <a href="#Contact">Contact Me</a>
+        </div>
       </div>
 
     <main id="main">
@@ -35,21 +38,35 @@
                 <h2 class="relevant bold centered">About Me</h2>
               </div>
             </div>
-            
-
-            <div class="card hcentered">
-              <div class="glass-card-content">
-                <p class="txt">This is my portfolio. <br>
-                  I'm a CS BS. I live in Mexico and I love tacos.</p>
-              </div>
-            </div>
             <br><br>
+            
+            <div class="parent">
+              <div class="div1"> 
+                <div class="card hcentered">
+                  <div class="glass-card-content">
+                    <p class="txt">This is my portfolio. <br>
+                      I'm a CS BS. I live in Mexico and I love tacos.</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="div2"> 
+                <div class="center parallax-img-container ">
+                  <img class="parallax-main-img  " src="https://drive.google.com/uc?export=view&id=1494j3Y6KxlOVKS-_1bJkLtT6wDXOiXeJ" alt="Misha" />
+                </div>
+
+              </div>
+              </div>
+
+            
+            
+
+            
+            
 
             
 
-            <div class="center parallax-img-container ">
-              <img class="parallax-main-img" src="https://drive.google.com/uc?export=view&id=1494j3Y6KxlOVKS-_1bJkLtT6wDXOiXeJ" alt="Misha" />
-            </div>
+           
 
           </section>
 
@@ -62,37 +79,61 @@
             </div>
 
 
+            <div class="sps-flexbox-container">
 
-            <div class="card hcentered">
-              <div class=" glass-card-content ">
-                <h3 class="bold hcentered">School Related</h3>
-                <ul>
-                  <li> 
-                    <a  href="./CEMEX.html">CEMEX - Fullstack Aplication</a>
-                  </li>
-                  <li >
-                    <a href="./Eternium.html">Eternium - Network Design </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/GuillermoTafoya/Mini-Netflix" target="external">C++ Streaming-Like UI </a>
-                  </li>
-                </ul>
-              </div>
-          </div>
 
-            <div class="card hcentered">
-              <div class="content-card glass-card-content hcentered">
-                <h3 class="bold hcentered">Personal Projects</h3>
-                <ul>
-                  <li> 
-                    <a  href="https://github.com/GuillermoTafoya/Password-Locker-Tkinter-GUI" target="external">Password Locker Tkinter GUI</a>
-                  </li>
-                  <li> 
-                    <a  href="https://github.com/GuillermoTafoya/Game-Tree-Example" target="external">AI - Game Tree Example</a>
-                  </li>
-                </ul>
+              <div class="card ">
+
+                <div class=" glass-card-content ">
+                  <br>
+                  <h3 class="bold hcentered">School Related</h3>
+                  
+                  
+                  <div class="vcentered">
+                    
+                  <ul>
+                    <li> 
+                      <a  href="./CEMEX.html">CEMEX - Fullstack Aplication</a>
+                    </li>
+                    <li >
+                      <a href="./Eternium.html">Eternium - Network Design </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/GuillermoTafoya/Mini-Netflix" target="external">C++ Streaming-Like UI </a>
+                    </li>
+                  </ul>
+
+                  </div>
+
+                  
+
+                </div>
               </div>
+
+              <div class="card ">
+                <div class="content-card glass-card-content ">
+                  <br>
+                  <h3 class="bold hcentered">Personal Projects</h3>
+                  <div class = "vcentered ">
+                    
+                  <ul>
+                    <li> 
+                      <a  href="https://github.com/GuillermoTafoya/Password-Locker-Tkinter-GUI" target="external">Password Locker Tkinter GUI</a>
+                    </li>
+                    <li> 
+                      <a  href="https://github.com/GuillermoTafoya/Game-Tree-Example" target="external">AI - Game Tree Example</a>
+                    </li>
+                  </ul>
+
+                  </div>
+                  
+
+                </div>
+              </div>
+
             </div>
+
+            <br><br>
 
           </div>
 
@@ -107,16 +148,20 @@
 
             <div class="social-media-container hcentered">
               <div class="glass-card-social-media">
+                <br>
+
                 <div class="flexbox-container hcentered ">
                 
                   <a class = "hcentered fa fa-instagram" href="https://www.instagram.com/guillermotepanyaki/" target="external"></a>
                   <a class = "hcentered fa fa-github" href="https://github.com/GuillermoTafoya" target="external"></a>
                   <a class = "hcentered fa fa-linkedin"  href="https://www.linkedin.com/in/guillermo-tafoya-milo/" target="external"></a>
                 </div>
-                
+                <br> 
                 <h3 class="bold hcentered">
                   <abbr title="tafoyamilo@gmail.com">Email</abbr>
                 </h3>
+
+                <br>
 
               </div>
             
@@ -129,6 +174,8 @@
 
           <div id = "Snippets">
             
+
+            
             <div class="header-card hcentered">
               <div class="glass-card-header">
                 <h2 class="relevant bold centered">SPS Snippets</h2>
@@ -136,52 +183,46 @@
             </div>
 
 
-            
-              <div class=" hcentered content-card">
+          <div class="sps-flexbox-container">
+
+
+              <div class="hcentered content-card sps-flexbox-container-item">
                 <div class="glass-card-content">
-                  <h3 class="bold">
-                    <a class="centered" href="/page-views">Page Counter</a>
-                  </h3>
+                  <div class="centered">
+                    <p>Click <a class="clickable" href="/hello">here</a> to see the server counting visits.</p>
+                  </div>
                 </div>
                 
               </div>
             
+            <div class="content-card hcentered sps-flexbox-container-item">
+              <div class=" glass-card-content ">
+                <div class="centered">
+                  <p>Click <a class="clickable" href="/hello">here</a> to see content created by server code.</p>
+                </div>
+              </div>
+            </div>
 
             
 
-            <div class="card hcentered">
+            <div class="content-card hcentered sps-flexbox-container-item">
+              <div class=" glass-card-content ">
+                <div class="centered">
+                  <p>Click <a class="clickable" onclick="addRandomGreeting()">here</a> to get a random food:</p>
+                  <div id="greeting-container"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-card hcentered sps-flexbox-container-item">
               <div class="glass-card-content">
                 <form class="centered bold " action="/upload" method="POST" enctype="multipart/form-data">
                     <input type="file" name="image">
                 </form>
               </div>
-              
             </div>
-
-            <div class="card hcentered">
-              <div class=" glass-card-content ">
-                <div class="centered">
-                  <p>Click <a class="clickable" href="/hello">here</a> to see content created by server code.</p>
-                </div>
-                
-                
-            </div>
-
             
-
-            <div class="card hcentered">
-              <div class=" glass-card-content ">
-                <div class="centered">
-                  <p>Click here to get a random message:</p>
-
-                  <button onclick="addRandomGreeting()">Hello</button>
-
-                  <div id="greeting-container"></div>
-
-                </div>
-                
-                
-            </div>
+          </div>
 
             </div>
 

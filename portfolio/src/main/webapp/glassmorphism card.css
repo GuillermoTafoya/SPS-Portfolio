@@ -5,6 +5,8 @@
     --neon-blue-1-alpha: rgba(68, 11, 212, 0.25);
     --neon-blue-2-alpha: rgba(4, 0, 94, 0.2);
 
+    --neon-purple-alpha: rgba(128, 0, 128, 0.5);
+
     --blur-px: 10px;
     /*
     RGB: 
@@ -22,6 +24,11 @@
 
 .header-card{
     width: 500px;
+    height: 100px;
+}
+
+.title-card{
+    width: 600px;
     height: 100px;
 }
 
@@ -44,6 +51,24 @@
     margin: 30px;
 }
 
+.glass-card-title{
+    background: var(--neon-purple-alpha);
+    box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid var(--neon-pink-2-alpha);
+
+    width: 100%;
+    height: 100%;
+
+    /*
+    width: 350px;
+    height: 150px;
+    */
+
+    margin: 30px;
+}
 
 
 .social-media-container{
@@ -51,7 +76,7 @@
 
 
     width: 500px;
-    
+    height: 150px;
     
 }
 
@@ -68,7 +93,7 @@
 
 .content-card{
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 
