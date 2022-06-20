@@ -69,7 +69,50 @@ abbr:hover{
 
 }
 
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px !important;
+  width: 30px;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
 
 .parallax-main-img{
   width: 100%;
@@ -100,9 +143,8 @@ abbr:hover{
 
 .hcentered {
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  margin: 0 auto; 
 }
 
 .vcentered {

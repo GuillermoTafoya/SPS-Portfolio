@@ -2,8 +2,10 @@
     --bg: #1B1212; /*Licourine*/
     --neon-pink-1-alpha: rgba(233, 46, 251, 0.5);
     --neon-pink-2-alpha: rgba(255, 32, 121, 0.5);
-    --neon-blue-1-alpha: rgba(68, 11, 212, 0.5);
-    --neon-blue-2-alpha: rgba(4, 0, 94, 0.5);
+    --neon-blue-1-alpha: rgba(68, 11, 212, 0.25);
+    --neon-blue-2-alpha: rgba(4, 0, 94, 0.2);
+
+    --blur-px: 10px;
     /*
     RGB: 
     --neon-pink-1: rgb(233, 46, 251);
@@ -19,12 +21,12 @@
 }
 
 .header-card{
-    width: 300px;
+    width: 500px;
     height: 100px;
 }
 
-.glass-card{
-    background: var(--neon-blue-2-alpha);
+.glass-card-header{
+    background: var(--neon-blue-1-alpha);
     box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -40,4 +42,48 @@
     */
 
     margin: 30px;
+}
+
+
+
+.social-media-container{
+    
+
+
+    width: 500px;
+    
+    
+}
+
+.glass-card-social-media{
+    background: rgba(255,255,255, 0.1);
+    box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
+    backdrop-filter: blur( var(--blur-px) );
+    -webkit-backdrop-filter: blur( var(--blur-px) );
+    border-radius: 10px;
+    border: 1px solid var(--neon-pink-2-alpha);
+    margin: 30px;
+}
+
+
+.content-card{
+    width: 300px;
+    height: 100px;
+}
+
+
+.glass-card-content{
+    background: rgba(255,255,255, 0.1);
+    box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
+    backdrop-filter: blur( var(--blur-px) );
+    -webkit-backdrop-filter: blur( var(--blur-px) );
+    border-radius: 10px;
+    border: 1px solid var(--neon-pink-2-alpha);
+    margin: 30px;
+    height: 100%;
+}
+
+.clickable{
+    cursor: pointer;
+    color: var(--neon-pink-2);
 }

@@ -6,7 +6,7 @@
     --neon-blue-2: #04005E;
     
 
-    --neon-blue-2-alpha: rgba(4, 0, 94, 0.5);
+    --nav: rgba(80, 80, 80, 0.3);
     /*
     RGB: 
     --neon-pink-1: rgb(233, 46, 251);
@@ -26,7 +26,7 @@
     left: 0;
 
 
-    background-color: var(--neon-blue-2-alpha);
+    background-color: var(--nav);
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );   
 
