@@ -9,6 +9,7 @@
 
   background-color: var(--bg);
   color: var(--aliceblue);
+  font-size: 1rem;
 }
 
 a {
@@ -32,7 +33,7 @@ abbr:hover{
 #content {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width: 60%;
   
 }
 
@@ -48,9 +49,32 @@ abbr:hover{
   margin-top: 100px;
 }
 
+.parallax-img-container {
+
+  background-image: url("https://i.pinimg.com/originals/a9/56/e6/a956e67c6e22eec886a8f2cec34f1c93.jpg");
+  
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+
+}
+
+.parallax-main-img{
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
+  filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
+}
+
 .relevant{
   color: var(--neon-pink-1);
-  font-size: 25x;
+  font-size: 2rem;
 }
 
 .bold{
@@ -63,7 +87,7 @@ abbr:hover{
 
 
 .header{
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bold;
     
 }
