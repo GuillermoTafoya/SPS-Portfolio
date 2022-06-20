@@ -108,6 +108,11 @@
     height: 100%;
 }
 
+.card-fit-to-content{
+    width: 100%;
+    height: 100%;
+}
+
 .clickable{
     cursor: pointer;
     color: var(--neon-pink-2);

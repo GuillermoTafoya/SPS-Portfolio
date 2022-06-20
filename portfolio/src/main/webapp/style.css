@@ -41,8 +41,8 @@ abbr:hover{
 }
 
 #content {
-  margin-left: 170px;
-  margin-right: 30px;
+  margin-left: 150px;
+  margin-right: 60px;
   
 }
 
@@ -76,6 +76,8 @@ abbr:hover{
     -webkit-backdrop-filter: blur( var(--blur-px) );
     border-radius: 10px;
     border: 2px solid var(--neon-pink-2-alpha);
+
+    
 
 }
 
@@ -116,10 +118,14 @@ abbr:hover{
 }
 
 .parallax-main-img{
-  width: 100%;
+  width: 90%;
   -webkit-filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
   filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
   
+}
+
+.title-txt{
+  padding: 15px
 }
 
 .relevant{
