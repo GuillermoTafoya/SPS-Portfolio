@@ -35,6 +35,11 @@ abbr:hover{
   color: var(--neon-pink-1);
 }
 
+
+.fit{
+  width: 100%;
+}
+
 #content {
   margin-left: auto;
   margin-right: auto;
