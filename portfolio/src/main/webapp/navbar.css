@@ -4,6 +4,7 @@
     --neon-pink-2: #FF2079;
     --neon-blue-1: #440BD4;
     --neon-blue-2: #04005E;
+    
 
     --neon-blue-2-alpha: rgba(4, 0, 94, 0.5);
     /*
@@ -26,6 +27,8 @@
 
 
     background-color: var(--neon-blue-2-alpha);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );   
 
 
     overflow-x: hidden; 
@@ -34,25 +37,25 @@
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    /*Center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*Font*/
     text-decoration: none;
     font-size: 25px;
     color: var(--neon-pink-1);
-    display: block;
+    
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

@@ -5,15 +5,35 @@
   --neon-pink-2: #FF2079;
   --neon-blue-1: #440BD4;
   --neon-blue-2: #04005E;
+  --aliceblue: #F0F8FF;
 
   background-color: var(--bg);
-  color: var(--neon-blue-1);
+  color: var(--aliceblue);
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+  color: var(--neon-pink-1);
+}
+
+abbr{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+abbr:hover{
+  color: var(--neon-pink-1);
 }
 
 #content {
   margin-left: auto;
   margin-right: auto;
   width: 650px;
+  
 }
 
 #greeting-container {
@@ -24,20 +44,34 @@
   margin-top: 20px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  margin-top: 90px;
+  margin-top: 100px;
+}
+
+.relevant{
+  color: var(--neon-pink-1);
+  font-size: 25x;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
 }
 
 
 .header{
   font-size: 30px;
   font-weight: bold;
+    
 }
 
 .hcentered {
   text-align: center;
 }
+
 .vcentered {
   margin: 0;
   position: absolute;

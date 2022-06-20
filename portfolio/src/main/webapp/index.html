@@ -20,24 +20,78 @@
       <div id="neonSideNav" class="sidenav">
           <a href="#About Me">About Me</a>
           <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact Me</a>
       </div>
 
     <main id="main">
         <div id="content">
 
-          
-          <p>This is my portfolio.</p>
-          <p id="About Me">I'm a CS BS. I live in Mexico and I love tacos.</p>
-          <img src="https://s3-us-west-2.amazonaws.com/melingoimages/Images/14337.jpg" />
-          <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-          <p>Click here to get a random message:</p>
-          <button onclick="addRandomGreeting()">Hello</button>
-          <div id="greeting-container"></div>
+          <section id="About Me">
+            <h2 class="relevant bold hcentered">About Me</h2>
+
+            <p class="txt">This is my portfolio. <br>
+            I'm a CS BS. I live in Mexico and I love tacos.</p>
+
+            <div class="center">
+              <img src="https://s3-us-west-2.amazonaws.com/melingoimages/Images/14337.jpg" />
+            </div>
+
+            <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+            <p>Click here to get a random message:</p>
+
+            <button onclick="addRandomGreeting()">Hello</button>
+
+            <div id="greeting-container"></div>
+          </section>
 
           <div id = "Projects">
-            <p>Hola</p>
+            <h2 class="relevant bold hcentered">Relevant Projects </h2>
+
+            <div>
+              <h3 class="bold hcentered">School Related</h3>
+              <ul>
+                <li> 
+                  <a  href="/CEMEX">CEMEX - Fullstack Aplication</a>
+                </li>
+                <li >
+                  <a href="/Eternium">Eternium - Network Design </a>
+                </li>
+                <li>
+                  <a href="/Streaming">C++ Streaming-Like UI </a>
+                </li>
+              </ul>
+            </div>
+              <h3 class="bold hcentered">Personal Projects</h3>
+              <ul>
+                <li> 
+                  <a  href="/Tkinter">Password Locker Tkinter GUI</a>
+                </li>
+                <li> 
+                  <a  href="/GameTree">AI - Game Tree Example</a>
+                </li>
+              </ul>
           </div>
 
+
+          <div id = "Contact">
+            <!-- Social Media -->
+            <h2 class="relevant bold hcentered">Get In Touch With Me</h2>
+
+            <h3 class="bold hcentered">
+              <a href="https://github.com/GuillermoTafoya">Github</a>
+            </h3>
+            <h3 class="bold hcentered">
+              <abbr title="tafoyamilo@gmail.com">Email</abbr>
+            </h3>
+            <h3 class="bold hcentered">
+              <a href="https://www.instagram.com/guillermotepanyaki/">Instagram</a>
+            </h3>
+            <h3 class="bold hcentered">
+              <a href="https://www.linkedin.com/in/guillermo-tafoya-milo/">LinkedIn</a>
+            </h3>
+
+          </div>
+        
         </div>
         
     </main>

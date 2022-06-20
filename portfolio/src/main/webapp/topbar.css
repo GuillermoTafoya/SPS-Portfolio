@@ -27,6 +27,9 @@
     color: var(--neon-pink-2);
     background-color: var(--neon-blue-2-alpha);
 
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );   
+
 
     overflow-y: hidden; 
 }
