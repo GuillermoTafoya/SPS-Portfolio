@@ -10,6 +10,11 @@
   background-color: var(--bg);
   color: var(--aliceblue);
   font-size: 1rem;
+  background: url("https://wallpaperaccess.com/full/794279.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -64,10 +69,13 @@ abbr:hover{
 
 }
 
+
+
 .parallax-main-img{
   width: 100%;
   -webkit-filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
   filter: drop-shadow(5px 5px 5px var(--neon-pink-1));
+  
 }
 
 .relevant{
@@ -92,6 +100,9 @@ abbr:hover{
 
 .hcentered {
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vcentered {
@@ -107,6 +118,7 @@ abbr:hover{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  margin: 0;  /* this is important */
 }
 
 

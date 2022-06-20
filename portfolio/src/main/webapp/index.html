@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="glassmorphism card.css">
     <script src="script.js"></script>
   </head>
   <body>
@@ -27,7 +28,14 @@
         <div id="content">
 
           <section id="About Me">
-            <h2 class="relevant bold hcentered">About Me</h2>
+
+            <div class="header-card hcentered">
+              <div class="glass-card">
+                <h2 class="relevant bold centered">About Me</h2>
+              </div>
+              
+            </div>
+            
 
             <p class="txt">This is my portfolio. <br>
             I'm a CS BS. I live in Mexico and I love tacos.</p>
@@ -97,14 +105,22 @@
             <!-- Social Media -->
             <h2 class="relevant bold hcentered">SPS Snippets</h2>
 
-            <h3 class="bold hcentered">
-                <a href="/page-views">Page Counter</a>
-            </h3>
 
-            <form class="bold hcentered" action="/upload" method="POST" enctype="multipart/form-data">
-                <input type="file" name="image">
-            </form>
             
+              <div class="card hcentered">
+                <h3 class="bold glass-card">
+                  <a class="centered" href="/page-views">Page Counter</a>
+                </h3>
+              </div>
+            
+
+            
+
+            <div class="card hcentered">
+              <form class="glass-card bold " action="/upload" method="POST" enctype="multipart/form-data">
+                  <input class="centered" type="file" name="image">
+              </form>
+            </div>
 
           </div>
 
