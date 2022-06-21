@@ -25,6 +25,7 @@
 .header-card{
     width: 500px;
     height: 100px;
+    
 }
 
 .title-card{
@@ -33,6 +34,7 @@
 }
 
 .glass-card-header{
+    
     background: var(--neon-blue-1-alpha);
     box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
     backdrop-filter: blur( 4px );
@@ -48,7 +50,6 @@
     height: 150px;
     */
 
-    margin: 30px;
 }
 
 .glass-card-title{
@@ -67,13 +68,12 @@
     height: 150px;
     */
 
-    margin: 30px;
 }
 
 
 .social-media-container{
     
-    width: 350px;
+    width: 450px;
     height: 150px;
     
 }
@@ -85,6 +85,7 @@
     -webkit-backdrop-filter: blur( var(--blur-px) );
     border-radius: 10px;
     border: 1px solid var(--neon-pink-2-alpha);
+
     width: 100%;
     height: 100%;
 }
@@ -103,7 +104,7 @@
     -webkit-backdrop-filter: blur( var(--blur-px) );
     border-radius: 10px;
     border: 1px solid var(--neon-pink-2-alpha);
-    margin: 30px;
+
     width: 100%;
     height: 100%;
 }

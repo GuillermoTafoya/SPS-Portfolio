@@ -9,7 +9,7 @@
 
   background-color: var(--bg);
   color: var(--aliceblue);
-  font-size: 1rem;
+  font-size: 17px;
   background: url("https://wallpaperaccess.com/full/794279.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -41,8 +41,8 @@ abbr:hover{
 }
 
 #content {
-  margin-left: 150px;
-  margin-right: 60px;
+  margin-left: 160px;
+  margin-right: auto;
   
 }
 
@@ -72,10 +72,10 @@ abbr:hover{
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 8px 32px 0 var(--neon-pink-1-alpha);
-    backdrop-filter: blur( var(--blur-px) );
-    -webkit-backdrop-filter: blur( var(--blur-px) );
-    border-radius: 10px;
-    border: 2px solid var(--neon-pink-2-alpha);
+  backdrop-filter: blur( var(--blur-px) );
+  -webkit-backdrop-filter: blur( var(--blur-px) );
+  border-radius: 10px;
+  border: 2px solid var(--neon-pink-2-alpha);
 
     
 
@@ -94,7 +94,7 @@ abbr:hover{
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #0A66C2;
   color: white;
 }
 
@@ -106,7 +106,11 @@ abbr:hover{
 
 
 .fa-instagram {
-  background: #125688;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   color: white;
 }
 
