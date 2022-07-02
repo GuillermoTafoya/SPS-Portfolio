@@ -16,8 +16,12 @@
  * Adds a random greeting to the page.
  */
 function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+  const greetings = [
+      'Cheesecake', 'Spaghetti', 
+      'Cheese Burger', 'Steak', 
+      'Ice Cream', 'Chocolate',
+      'Bacon', 'Pizza', 'Pasta',
+    ];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
@@ -26,3 +30,4 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+

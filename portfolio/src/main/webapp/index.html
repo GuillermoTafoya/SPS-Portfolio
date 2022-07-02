@@ -2,18 +2,247 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>My Portfolio - Guillermo Tafoya Milo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="grids.css">
+    <link rel="stylesheet" href="glassmorphism card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
+
+      <div id="neonSideNav" class="sidenav">
+        <div class="hcentered">
+          <a href="#About Me">About Me</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact Me</a>
+          <a href="#Snippets">SPS</a>
+        </div>
+      </div>
+
+      <div class="sep">
+        <div class="top-bar hcentered full-width">
+          <div class="header ">
+            <p class = " full-width centered">Guillermo Tafoya's Portfolio</p>
+          </div>
+        </div>
+      </div>
+    
+
+    <main id="main">
+        <div id="content">
+
+          
+
+          <section id="About Me">
+
+            <div class="header-card hcentered">
+              <div class="glass-card-header ">
+                <h2 class="relevant bold centered">About Me</h2>
+              </div>
+            </div>
+            <br><br>
+            
+            
+              <div class="hcentered parent ">
+                <div class="div1 fit card"> 
+                    <div class="fit glass-card-content hcentered">
+                      <p class="centered">This is my portfolio. <br>
+                        I'm a CS BS. I live in Mexico and I love tacos.</p>
+                    
+                  </div>
+
+                </div>
+                <div class="div2 fit"> 
+                  <div class="fit center parallax-img-container hcentered">
+                    <img class="parallax-main-img centered fit" src="https://drive.google.com/uc?export=view&id=1494j3Y6KxlOVKS-_1bJkLtT6wDXOiXeJ" alt="Misha" />
+                  </div>
+
+                </div>
+              </div>
+
+          </section>
+
+          <div id = "Projects">
+
+            <div class="header-card hcentered">
+              <div class="glass-card-header ">
+                <h2 class="relevant bold centered">Relevant Projects</h2>
+              </div>
+            </div>
+
+
+            <div class="sps-flexbox-container ">
+
+
+              <div class="card sps-flexbox-container-item">
+
+                <div class=" glass-card-content">
+                  <br>
+                  <h3 class="bold hcentered">School Related</h3>
+                  
+                  
+                  <div class="vcentered">
+                    
+                  <ul>
+                    <li> 
+                      <a  href="./CEMEX.html">CEMEX - Fullstack Aplication</a>
+                    </li>
+                    <li >
+                      <a href="./Eternium.html">Eternium - Network Design </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/GuillermoTafoya/Mini-Netflix" target="external">C++ Streaming-Like UI </a>
+                    </li>
+                  </ul>
+
+                  </div>
+
+                  
+
+                </div>
+              </div>
+
+              
+
+              <div class="card sps-flexbox-container-item ">
+                <div class="content-card glass-card-content ">
+                  <br>
+                  <h3 class="bold hcentered">Personal Projects</h3>
+                  <div class = "vcentered ">
+                    
+                  <ul>
+                    <li> 
+                      <a  href="https://github.com/GuillermoTafoya/Password-Locker-Tkinter-GUI" target="external">Password Locker Tkinter GUI</a>
+                    </li>
+                    <li> 
+                      <a  href="https://github.com/GuillermoTafoya/Game-Tree-Example" target="external">AI - Game Tree Example</a>
+                    </li>
+                  </ul>
+
+                  </div>
+                  
+
+                </div>
+              </div>
+
+            </div>
+
+            <br><br>
+
+          </div>
+
+
+          <div id = "Contact">
+            <!-- Social Media -->
+            <div class="header-card hcentered">
+              <div class="glass-card-header">
+                <h2 class="relevant bold centered">Get In Touch With Me</h2>
+              </div>
+            </div>
+
+            <br>
+            <br>
+
+
+
+
+              <div class="social-media-container hcentered">
+                <div class="glass-card-social-media">
+                  
+
+                  <div class="flexbox-container full-width centered">
+                    
+                    <a class = " fa fa-instagram sps-flexbox-container-item" href="https://www.instagram.com/guillermotepanyaki/" target="external"></a>
+                    <a class = " fa fa-github sps-flexbox-container-item" href="https://github.com/GuillermoTafoya" target="external"></a>
+                    <a class = " fa fa-linkedin sps-flexbox-container-item"  href="https://www.linkedin.com/in/guillermo-tafoya-milo/" target="external"></a>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <br>
+
+
+
+          <div id = "Snippets">
+            
+
+            
+            <div class="header-card hcentered">
+              <div class="glass-card-header ">
+                <h2 class="relevant bold centered">SPS Snippets</h2>
+              </div>
+            </div>
+
+
+          <div class="sps-flexbox-container">
+
+
+              <div class=" content-card hcentered sps-flexbox-container-item">
+                <div class="glass-card-content ">
+                  <div class="centered">
+                    <p>Click <a class="clickable" href="/page-views">here</a> to see the server counting visits.</p>
+                  </div>
+                </div>
+                
+              </div>
+            
+            <div class="content-card hcentered sps-flexbox-container-item" href="/hello">
+              <div class=" glass-card-content ">
+                <div class="centered">
+                  <p>Click <a class="clickable" href="/hello">here</a> to see content created by server code.</p>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="content-card hcentered sps-flexbox-container-item">
+              <div class=" glass-card-content ">
+                <div class="centered">
+                  <p>Click <a class="clickable" onclick="addRandomGreeting()">here</a> to get a random food:</p>
+                  <div id="greeting-container"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-card hcentered sps-flexbox-container-item">
+              <div class="glass-card-content">
+
+                <div class="centered">
+                  <p>Try out the Google Cloud Storage library!</p>
+                <form class=" bold" action="/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="image">
+                </form>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+
+            </div>
+
+          </div>
+
+
+          
+
+
+
+
+            
+        
+        </div>
+        
+    </main>
+
   </body>
 </html>
