@@ -1,0 +1,46 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
+    .div1 { flex-grow: 1;
+    margin: 20px;}
+    .div2 { flex-grow: 2;
+        margin: 20px}
+
+
+
+
+.flexbox-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.vertical-flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sps-flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sps-flexbox-container-item{
+    margin: 15px !important;
+}
+
+.fit{
+    width: 100%;
+    height: 100%;
+}
